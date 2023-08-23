@@ -6,7 +6,6 @@ import About from "./Components/About";
 import Experience from "./Components/Experience";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
-import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -27,7 +26,6 @@ const App = () => {
       <Portfolio data={resumeData.portfolio} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
-      <Analytics />
     </div>
   );
 };

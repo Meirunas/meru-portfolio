@@ -16,7 +16,7 @@
       "postCode": "E16 2RS"
     },
     "website": "",
-    "resumeDownload": "Meirunas%20Smitas%20Resume.pdf",
+    "resumeDownload": "Meirunas%20(Meru)%20Smitas%20Resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -141,23 +141,20 @@
       {
         "title": "Global Digital Sales Aid (DSA)",
         "category": "HTML, Handlebars, SCSS, JS, Veeva CRM and API, JSON",
-        "image": "image--layout.png"
+        "image": "image--global-digital-sales-aid-(dsa).png",
+        "url": "https://github.com/Meirunas/global-digital-sales-aid-dsa"
       },
       {
         "title": "UK 2023 Veeva DSA",
-        "category": "HTML, Handlebars, SCSS, JS, Veeva CRM and API",
-        "image": "image--layout.png"
+        "category": "HTML, Handlebars, SCSS, JS, Veeva CRM and API, JSON",
+        "image": "image--uk-2023-veeva-dsa.png",
+        "url": "https://github.com/Meirunas/uk-2023-veeva-dsa"
       },
       {
-        "title": "Veeva Approved Emails (VAE) Suite",
+        "title": "28b Veeva Approved Emails (VAE) Suite",
         "category": "MJML, CSS, JS, Veeva CRM and API, JSON",
-        "image": "image--layout.png"
-      },
-      {
-        "title": "VAE",
-        "category": "MJML, CSS, Veeva CRM and API",
-        "image": "image--layout.png"
-
+        "image": "image--28b-veeva-approved-emails-(vae)-suite.png",
+        "url": "https://github.com/Meirunas/28b-veeva-approved-emails-vae-suite"
       },
       {
         "title": "Travel and Explore Now",
@@ -175,7 +172,7 @@
         "title": "Old Portfolio Site",
         "category": "HTML, CSS, JS",
         "image": "image--portfolio.png",
-        "url": ""
+        "url": "https://github.com/Meirunas/meirunas-portfolio"
       },
       {
         "title": "University Grade Calculator",
@@ -198,7 +195,8 @@
       {
         "title": "Territory dashboard",
         "category": "Vue.js, TS, Storybook, Veeva CRM and API",
-        "image": "image--layout.png"
+        "image": "image--territory-dashboard.png",
+        "url": "https://github.com/Meirunas/territory-dashboard"
       }
     ]
   }
