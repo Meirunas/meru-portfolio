@@ -5,9 +5,7 @@ const About = ({ data }) => {
     var name = data.name;
     var profileMeirunas = "images/" + data.image;
     var bio = data.bio;
-    var street = data.address.street;
-    var city = data.address.city;
-    var postCode = data.address.postCode;
+    var city = data.location.city;
     var phone = data.phone;
     var email = data.email;
     var resumeDownload = data.resumeDownload;
@@ -30,13 +28,11 @@ const About = ({ data }) => {
           <div className="row">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
-              <p className="address">
+              <p className="location">
                 <span>{name}</span>
                 <br />
                 <span>
-                  {street}
-                  <br />
-                  {city} {postCode}
+                  {city}
                 </span>
                 <br />
                 <span>{phone}</span>

@@ -5,9 +5,7 @@ const Contact = ({ data }) => {
 
   if (data) {
     var contactName = data.name;
-    var street = data.address.street;
-    var city = data.address.city;
-    var postCode = data.address.postCode;
+    var city = data.location.city;
     var phone = data.phone;
     var contactEmail = data.email;
     var subject = data.subject;
@@ -63,16 +61,14 @@ const Contact = ({ data }) => {
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Mobile</h4>
-            <p className="address">
+            <h4>Contact details</h4>
+            <p className="location">
               {contactName}
               <br />
               {contactEmail}
               <br />
               <br />
-              {street} 
-              <br />
-              {city}, {postCode}
+              {city}
               <br />
               <span>{phone}</span>
             </p>

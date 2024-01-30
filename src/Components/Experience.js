@@ -2,8 +2,10 @@ import React from "react";
 
 const Experience = ({ data }) => {
   if (data) {
-    var skillMessageProgramming = data.skillMessageProgramming;
-    var skillMessageIT = data.skillMessageIT;
+    var languagesMessage = data.languagesMessage;
+    var frameworksLibrariesMessage = data.frameworksLibrariesMessage;
+    var softwareMessage = data.softwareMessage;
+    var databasesMessage = data.databasesMessage;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -28,26 +30,44 @@ const Experience = ({ data }) => {
         </div>
       );
     });
-    var skillsProgramming = data.skillsProgramming.map(function (
-      skillsProgramming
-    ) {
-      var className = "bar-expand " + skillsProgramming.name.toLowerCase();
+    var languages = data.languages.map(function (languages) {
+      var className = "bar-expand " + languages.name.toLowerCase();
       return (
-        <li key={skillsProgramming.name}>
-          <span
-            style={{ width: skillsProgramming.level }}
-            className={className}
-          ></span>
-          <em>{skillsProgramming.name}</em>
+        <li key={languages.name}>
+          <span style={{ width: languages.level }} className={className}></span>
+          <em>{languages.name}</em>
         </li>
       );
     });
-    var skillsIT = data.skillsIT.map(function (skillsIT) {
-      var className = "bar-expand " + skillsIT.name.toLowerCase();
+    var frameworksLibraries = data.frameworksLibraries.map(function (
+      frameworksLibraries
+    ) {
+      var className = "bar-expand " + frameworksLibraries.name.toLowerCase();
       return (
-        <li key={skillsIT.name}>
-          <span style={{ width: skillsIT.level }} className={className}></span>
-          <em>{skillsIT.name}</em>
+        <li key={frameworksLibraries.name}>
+          <span
+            style={{ width: frameworksLibraries.level }}
+            className={className}
+          ></span>
+          <em>{frameworksLibraries.name}</em>
+        </li>
+      );
+    });
+    var software = data.software.map(function (software) {
+      var className = "bar-expand " + software.name.toLowerCase();
+      return (
+        <li key={software.name}>
+          <span style={{ width: software.level }} className={className}></span>
+          <em>{software.name}</em>
+        </li>
+      );
+    });
+    var databases = data.databases.map(function (databases) {
+      var className = "bar-expand " + databases.name.toLowerCase();
+      return (
+        <li key={databases.name}>
+          <span style={{ width: databases.level }} className={className}></span>
+          <em>{databases.name}</em>
         </li>
       );
     });
@@ -63,18 +83,24 @@ const Experience = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-          <p className="sub-title">{skillMessageProgramming}</p>
-
+          <p className="sub-title">{languagesMessage}</p>
           <div className="bars">
-            <ul className="skills">{skillsProgramming}</ul>
+            <ul className="skills">{languages}</ul>
           </div>
-        </div>
 
-        <div className="nine columns main-col">
-          <p className="sub-title">{skillMessageIT}</p>
-
+          <p className="sub-title">{frameworksLibrariesMessage}</p>
           <div className="bars">
-            <ul className="skills">{skillsIT}</ul>
+            <ul className="skills">{frameworksLibraries}</ul>
+          </div>
+
+          <p className="sub-title">{softwareMessage}</p>
+          <div className="bars">
+            <ul className="skills">{software}</ul>
+          </div>
+
+          <p className="sub-title">{databasesMessage}</p>
+          <div className="bars">
+            <ul className="skills">{databases}</ul>
           </div>
         </div>
       </div>

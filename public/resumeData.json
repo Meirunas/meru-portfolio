@@ -2,21 +2,19 @@
   "main": {
     "name": "Meru Smitas",
     "descriptionStart": "I'm a London based",
-    "occupation": "Prospective Front-end Developer",
+    "occupation": "Front-end Developer",
     "descriptionEnd": "Helping companies with their web needs",
     "image": "profileMeirunas.jpg",
-    "bio": "I have gained 3+ years of full-time frontend experience in the pharma agency 28b. I developed multiple web/iOS solutions, internal tools, and marketing materials for clients. In another similar role I created and maintained a static and interactive website. Prior to these roles I was studying an MSc and a BSc Computer Science at London Universities. I launched frontend dev hub channel to share my experience and improve my teamwork skills. I am looking to work with front-end technologies. I have experience in HTML, SCSS, JS and React.js. In addition, I have been following clients’ requirements created on Adobe applications, such as, InDesign, XD and Powerpoint. Over 13 years in IT environment I built a wide range of skills that could benefit your company.",
+    "bio": "I have gained over 3 years of full-time frontend experience in the pharma agency 28b. I developed multiple web/iOS solutions, internal tools, and marketing materials for clients. In another similar role I created and maintained a static and interactive website. Prior to these roles I was studying an MSc and a BSc Computer Science at London Universities. I launched a frontend dev hub to share my experience and improve my teamwork skills. I have experience in HTML, SCSS, JS, Vue.js and React.js. In addition, I have been following client requirements created on Adobe applications, such as, InDesign, XD and Powerpoint. Over 13 years in IT environment I built a wide range of skills that will benefit your company.",
     "contactMessage": "Get in touch with me.",
     "email": "smeirunas@email.com",
     "subject": "Contact From Meru's Portfolio",
     "phone": "+44 7727 825042",
-    "address": {
-      "street": "103 Felixstowe Court",
-      "city": "London",
-      "postCode": "E16 2RS"
+    "location": {
+      "city": "London"
     },
     "website": "",
-    "resumeDownload": "Meirunas%20(Meru)%20Smitas%20Resume.pdf",
+    "resumeDownload": "Meirunas_Smitas_Resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -41,8 +39,10 @@
     ]
   },
   "experience": {
-    "skillMessageProgramming": "Coding",
-    "skillMessageIT": "IT",
+    "languagesMessage": "Languages",
+    "frameworksLibrariesMessage": "Frameworks & Libraries",
+    "softwareMessage": "Software",
+    "databasesMessage": "Databases",
     "education": [
       {
         "school": "Queen Mary Univeristy",
@@ -59,16 +59,22 @@
     ],
     "work": [
       {
-        "company": "Anglo Skills College (ASC)",
+        "company": "Targech",
+        "title": "Vue.js Developer",
+        "years": "Dec 2023 - Now",
+        "description": "Creating UI for recruitment website and testing. Setting up website skeleton for the recruiter side and reusing parts for the candidate side. Helping finalise candidate side and colloborating in meetings. Using RESTful API for backend interaction. Created Stripe and Paypal payment flows, PSPs configuration and authentication system forms with Django, MongoDB backend."
+      },
+      {
+        "company": "Anglo Skills College",
         "title": "IT Administrator",
-        "years": "Aug 2023 - Oct 2023",
-        "description": "Developing ASC website, Moodle and update the web contents, digital data and features for both the website and VLE."
+        "years": "Aug - Oct 2023",
+        "description": "Developed ASC website, Moodle and updated the web contents, digital data and features for both the website and VLE."
       },
       {
         "company": "28b",
         "title": "Junior Developer",
         "years": "Mar 2020 - Jun 2023",
-        "description": " Implementing Digital Sales Aids for iOS/Web platforms using the Veeva and IQVIA APIs that helped clients with their sales. Implementing responsive emails including CRM, Salesforce and iPad Implementing internal tools that helped to increase the quality of the software and made the delivery processes faster. Using Code Standard guidelines and best engineering practices such as Code reviews, Git branching strategy, and CI/CD. Using Agile practices. Improving internal documentation (Company Wiki)."
+        "description": "Implemented Digital Sales Aids for iOS/Web platforms using the Veeva and IQVIA APIs that helped clients with their sales. Developed responsive emails including CRM, Salesforce and iPad. Implemented internal tools that helped to increase the quality of the software and made the delivery processes faster. Using Code Standard guidelines and best engineering practices such as Code reviews, Git branching strategy, and CI/CD. Involved in Agile practices. Improved internal documentation (Company Wiki)."
       },
       {
         "company": "HADEA",
@@ -77,7 +83,7 @@
         "description": "Creating an appropriate design for the company website from scratch and making it available online. Choosing and installing the optimal plugins for database, video chat and location map. Maintaining website by uploading and updating information."
       }
     ],
-    "skillsProgramming": [
+    "languages": [
       {
         "name": "HTML",
         "level": "80%"
@@ -87,12 +93,26 @@
         "level": "80%"
       },
       {
+        "name": "MJML",
+        "level": "80%"
+      },
+      {
         "name": "JavaScript",
         "level": "70%"
       },
       {
-        "name": "Typescript",
+        "name": "Handlebars",
+        "level": "70%"
+      },
+      {
+        "name": "TypeScript",
         "level": "60%"
+      }
+    ],
+    "frameworksLibraries": [
+      {
+        "name": "Vue.js",
+        "level": "80%"
       },
       {
         "name": "React.js",
@@ -100,45 +120,59 @@
       },
       {
         "name": "Next.js",
-        "level": "50%"
-      },
-      {
-        "name": "Redux",
         "level": "60%"
       },
       {
-        "name": "Vue.js",
-        "level": "70%"
-      },
-      {
-        "name": "WordPress",
-        "level": "70%"
-      },
-      {
-        "name": "SQL",
-        "level": "80%"
-      },
-      {
-        "name": "PHP",
+        "name": "Redux",
         "level": "70%"
       }
     ],
-    "skillsIT": [
+    "software": [
       {
-        "name": "Adobe Creative Cloud",
+        "name": "Adobe Cloud",
+        "level": "80%"
+      },
+      {
+        "name": "Veeva",
+        "level": "80%"
+      },
+      {
+        "name": "Salesforce",
+        "level": "70%"
+      },
+      {
+        "name": "npm",
+        "level": "80%"
+      },
+      {
+        "name": "MS Office",
+        "level": "80%"
+      },
+      {
+        "name": "VS Code",
         "level": "80%"
       },
       {
         "name": "Git",
-        "level": "90%"
+        "level": "80%"
       },
       {
-        "name": "VS Code",
-        "level": "90%"
+        "name": "WordPress",
+        "level": "80%"
+      }
+    ],
+    "databases": [
+      {
+        "name": "SQL",
+        "level": "70%"
       },
       {
-        "name": "MS Office",
-        "level": "90%"
+        "name": "MySQL",
+        "level": "70%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
       }
     ]
   },
@@ -160,7 +194,7 @@
         "title": "Travel and Explore Now",
         "category": "Laravel 3, HTML, CSS-Bootstrap. Javascript-jQuery, JSON for server-side and client-side data parsing, AJAX, XML. DBMS MySQL, Self developed APIs and Paypal Payments.",
         "image": "image--tvln.png",
-        "url": "https://github.com/Meirunas/travel-and-explore-now"
+        "url": "https://gitlab.com/Meru4s/travel-and-explore-now/-/blob/main/Travel%20and%20Explore%20Now.md?ref_type=heads"
       },
       {
         "title": "HADEA Website",
@@ -178,13 +212,13 @@
         "title": "University Grade Calculator",
         "category": "C#",
         "image": "image--grade-calculator.png",
-        "url": "https://github.com/Meirunas/BSc-Grade-Calculator"
+        "url": "https://gitlab.com/dev-port/bsc-grade-calculator"
       },
       {
-        "title": "Multiple Sclerosis Mobility App",
-        "category": "proto.io",
-        "image": "image--initial-prototype.png",
-        "url": "https://github.com/Meirunas/Multiple-Sclerosis-Mobility-App-Design"
+        "title": "Feedback Post",
+        "category": "Adobe XD",
+        "image": "image--feedback-post-pages.png",
+        "url": "https://xd.adobe.com/view/06eb7560-3689-4aa5-9195-05b3fbf89636-53b8/grid"
       },
       {
         "title": "Portfolio",
