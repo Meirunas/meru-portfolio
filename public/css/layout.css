@@ -241,7 +241,6 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#experience a, #experience a:visited  { color: #11ABB0; }
 #experience a:hover, #experience a:focus { color: #313131; }
 
 #experience h1 {

@@ -50,24 +50,28 @@
     "work": [
       {
         "company": "Targech",
+        "link": "https://www.thanks-boss.com/",
         "title": "Vue.js Developer",
         "years": "Dec 2023 - Now",
         "description": "Creating UI for recruitment website and testing. Setting up website skeleton for the recruiter side and reusing parts for the candidate side. Helping finalise candidate side and colloborating in meetings. Using RESTful API for backend interaction. Created Stripe and Paypal payment flows, PSPs configuration and authentication system forms with Django, MongoDB backend."
       },
       {
         "company": "Anglo Skills College",
+        "link": "https://www.angloskillscollege.co.uk/",
         "title": "IT Administrator",
         "years": "Aug - Oct 2023",
         "description": "Developed ASC website, Moodle and updated the web contents, digital data and features for both the website and VLE."
       },
       {
         "company": "28b",
+        "link": "https://28b.co.uk/",
         "title": "Junior Developer",
         "years": "Mar 2020 - Jun 2023",
         "description": "Implemented Digital Sales Aids for iOS/Web platforms using the Veeva and IQVIA APIs that helped clients with their sales. Developed responsive emails including CRM, Salesforce and iPad. Implemented internal tools that helped to increase the quality of the software and made the delivery processes faster. Using Code Standard guidelines and best engineering practices such as Code reviews, Git branching strategy, and CI/CD. Involved in Agile practices. Improved internal documentation (Company Wiki)."
       },
       {
         "company": "HADEA",
+        "link": "https://www.hadea.org.uk/",
         "title": "Website Developer",
         "years": "Jun 2017 - Jun 2018",
         "description": "Creating an appropriate design for the company website from scratch and making it available online. Choosing and installing the optimal plugins for database, video chat and location map. Maintaining website by uploading and updating information."
