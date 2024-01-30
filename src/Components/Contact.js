@@ -67,7 +67,6 @@ const Contact = ({ data }) => {
               <br />
               {contactEmail}
               <br />
-              <br />
               {city}
               <br />
               <span>{phone}</span>

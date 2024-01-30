@@ -17,22 +17,12 @@
     "resumeDownload": "Meirunas_Smitas_Resume.pdf",
     "social": [
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/meirunas/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/smeirunas",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "github",
         "url": "https://github.com/Meirunas",
         "className": "fa fa-github"
       },
       {
-        "name": "github",
+        "name": "meetup",
         "url": "https://www.meetup.com/front-end-dev-hub/",
         "className": "fa fa-meetup"
       }
