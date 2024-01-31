@@ -50,7 +50,7 @@
     "work": [
       {
         "company": "Targech",
-        "link": "https://www.thanks-boss.com/",
+        "link": "",
         "title": "Vue.js Developer",
         "years": "Dec 2023 - Now",
         "description": "Creating UI for recruitment website and testing. Setting up website skeleton for the recruiter side and reusing parts for the candidate side. Helping finalise candidate side and colloborating in meetings. Using RESTful API for backend interaction. Created Stripe and Paypal payment flows, PSPs configuration and authentication system forms with Django, MongoDB backend."
