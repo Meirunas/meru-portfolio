@@ -9,7 +9,7 @@
     "contactMessage": "Get in touch with me.",
     "email": "smeirunas@email.com",
     "subject": "Contact From Meru's Portfolio",
-    "phone": "+44 7727 825042",
+    "phone": "07727 825042",
     "location": {
       "city": "London"
     },
@@ -25,6 +25,11 @@
         "name": "meetup",
         "url": "https://www.meetup.com/front-end-dev-hub/",
         "className": "fa fa-meetup"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/meirunas/",
+        "className": "fa fa-linkedin"
       }
     ]
   },
