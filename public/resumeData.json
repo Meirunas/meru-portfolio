@@ -57,7 +57,7 @@
         "company": "Targech",
         "link": "",
         "title": "Vue.js Developer",
-        "years": "Dec 2023 - Now",
+        "years": "Dec 2023 - Mar 2024",
         "description": "Creating UI for recruitment website and testing. Setting up website skeleton for the recruiter side and reusing parts for the candidate side. Helping finalise candidate side and colloborating in meetings. Using RESTful API for backend interaction. Created Stripe and Paypal payment flows, PSPs configuration and authentication system forms with Django, MongoDB backend."
       },
       {
@@ -79,7 +79,7 @@
         "link": "https://www.hadea.org.uk/",
         "title": "Website Developer",
         "years": "Jun 2017 - Jun 2018",
-        "description": "Creating an appropriate design for the company website from scratch and making it available online. Choosing and installing the optimal plugins for database, video chat and location map. Maintaining website by uploading and updating information."
+        "description": "Created an appropriate design for the company website from scratch and made it available online. Choose and install the optimal plugins for database, video chat and location map. Maintaining a website by uploading and updating information."
       }
     ],
     "languages": [
