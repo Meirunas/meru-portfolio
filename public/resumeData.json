@@ -5,7 +5,7 @@
     "occupation": "Front-End Developer",
     "descriptionEnd": "Helping companies with their web needs",
     "image": "profileMeirunas.jpg",
-    "bio": "I have gained over 3 years of full-time frontend experience in the pharma agency 28b. I developed multiple web/iOS solutions, internal tools, and marketing materials for clients. In other frontend roles I created and maintained static and interactive websites. Prior to these roles I was studying an MSc and a BSc Computer Science at London Universities. I launched a frontend dev hub to share my experience and improve my teamwork skills. In addition, I have been following clients’ requirements created on Adobe applications, such as, InDesign, XD and Photoshop. With over 14 years in IT environments I built a wide range of skills, including HTML, CSS, JS, TS, React and Vue, that can benefit your company.",
+    "bio": "I am a front-end developer with around four years of experience building web and iOS solutions, internal tools, and marketing assets. I have also created and maintained both static and interactive websites, with a strong focus on responsive design and performance. I hold a BSc in Computer Science from a renowned London University. During my studies, I completed several full-stack and front-end projects, including a dynamic charity website and a full e-commerce platform. I launched a frontend dev hub to share my experience and improve my teamwork skills. In addition, I have been following clients’ requirements created on Adobe applications, such as InDesign and XD. With over 14 years in IT environments I built a wide range of skills, including HTML, CSS, JS, TS, React and Vue, that can benefit your company.",
     "contactMessage": "Get in touch with me.",
     "email": "meirunas.smi@icloud.com",
     "subject": "Contact From Meirunas's Portfolio",
@@ -23,8 +23,8 @@
       },
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/front-end-dev-hub/",
-        "className": "fa fa-meetup"
+        "url": "https://codepen.io/meirunas_smitas/pens/popular",
+        "className": "fab fa-codepen"
       },
       {
         "name": "linkedin",
@@ -54,18 +54,25 @@
     ],
     "work": [
       {
+        "company": "XBP Europe",
+        "link": "https://xbpeurope.com/",
+        "title": "Processing Clerk/QA",
+        "years": "Feb 2025 - Jun 2025",
+        "description": "Entered and ensured the accuracy of data captured from scanned images. Amended incorrectly captured data and performed final quality checks before delivery to the customer. Maintained Security Check (SC) clearance from the Home Office"
+      },
+      {
         "company": "Iron Mountain",
         "link": "https://www.ironmountain.com/",
         "title": "Digital Solutions Operative",
         "years": "Jun 2024 - Jan 2025",
-        "description": ""
+        "description": "Entered client data into company databases. Performed document quality assurance. Scanned documents. Carried out ad-hoc administrative and site support duties. Handled confidential and top secret documents at data centre."
       },
       {
         "company": "Targech",
-        "link": "",
+        "link": "https://www.thanks-boss.com/",
         "title": "Vue.js Developer",
         "years": "Dec 2023 - Mar 2024",
-        "description": "Creating UI for recruitment website and testing. Setting up website skeleton for the recruiter side and reusing parts for the candidate side. Helping finalise candidate side and colloborating in meetings. Using RESTful API for backend interaction. Created Stripe and Paypal payment flows, PSPs configuration and authentication system forms with Django, MongoDB backend."
+        "description": "Analysed existing programs for modification purposes. Implemented clean and scalable code. Troubleshot and debugged code. Created UI for recruitment website and testing. Configured and implemented authentication system, payment processing gateway and API."
       },
       {
         "company": "Anglo Skills College",
@@ -83,10 +90,10 @@
       },
       {
         "company": "HADEA",
-        "link": "https://www.hadea.org.uk/",
-        "title": "Website Developer",
-        "years": "Jun 2017 - Jun 2018",
-        "description": "Created an appropriate design for the company website from scratch and made it available online. Choose and install the optimal plugins for database, video chat and location map. Maintaining a website by uploading and updating information."
+        "link": "https://hadea.netlify.app/",
+        "title": "Front End Development Assistant",
+        "years": "Jun 2019 - Apr 2020",
+        "description": "Created an appropriate design for the company website and making it available online. Enhanced the website with HTML, CSS, JavaScript and WordPress plugins. Maintained the website by uploading and updating information."
       }
     ],
     "languages": [
