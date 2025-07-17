@@ -285,6 +285,7 @@ ul#nav li.current a { color: #16a34aff; }
 
 .sub-title {
    margin-bottom: 22px;
+   clear: both;
 }
 .bars {
 	width: 95%;

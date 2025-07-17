@@ -4,8 +4,10 @@ const Experience = ({ data }) => {
   if (data) {
     var languagesMessage = data.languagesMessage;
     var frameworksLibrariesMessage = data.frameworksLibrariesMessage;
-    var softwareMessage = data.softwareMessage;
-    var databasesMessage = data.databasesMessage;
+    var apisDatabasesMessage = data.apisDatabasesMessage;
+    var designPrototypingMessage = data.designPrototypingMessage;
+    var toolingDeploymentMessage = data.toolingDeploymentMessage;
+    var softMessage = data.softMessage;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -21,7 +23,9 @@ const Experience = ({ data }) => {
     var work = data.work.map(function (work) {
       return (
         <div key={work.company}>
-          <h3><a href={work.link}>{work.company}</a></h3>
+          <h3>
+            <a href={work.link}>{work.company}</a>
+          </h3>
           <p className="info">
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
@@ -53,21 +57,53 @@ const Experience = ({ data }) => {
         </li>
       );
     });
-    var software = data.software.map(function (software) {
-      var className = "bar-expand " + software.name.toLowerCase();
+    var apisDatabases = data.apisDatabases.map(function (apisDatabases) {
+      var className = "bar-expand " + apisDatabases.name.toLowerCase();
       return (
-        <li key={software.name}>
-          <span style={{ width: software.level }} className={className}></span>
-          <em>{software.name}</em>
+        <li key={apisDatabases.name}>
+          <span
+            style={{ width: apisDatabases.level }}
+            className={className}
+          ></span>
+          <em>{apisDatabases.name}</em>
         </li>
       );
     });
-    var databases = data.databases.map(function (databases) {
-      var className = "bar-expand " + databases.name.toLowerCase();
+    var designPrototyping = data.designPrototyping.map(function (
+      designPrototyping
+    ) {
+      var className = "bar-expand " + designPrototyping.name.toLowerCase();
       return (
-        <li key={databases.name}>
-          <span style={{ width: databases.level }} className={className}></span>
-          <em>{databases.name}</em>
+        <li key={designPrototyping.name}>
+          <span
+            style={{ width: designPrototyping.level }}
+            className={className}
+          ></span>
+          <em>{designPrototyping.name}</em>
+        </li>
+      );
+    });
+    var toolingDeployment = data.toolingDeployment.map(function (
+      toolingDeployment
+    ) {
+      var className = "bar-expand " + toolingDeployment.name.toLowerCase();
+      return (
+        <li key={toolingDeployment.name}>
+          <span
+            style={{ width: toolingDeployment.level }}
+            className={className}
+          ></span>
+          <em>{toolingDeployment.name}</em>
+        </li>
+      );
+    });
+
+    var soft = data.soft.map(function (soft) {
+      var className = "bar-expand " + soft.name.toLowerCase();
+      return (
+        <li key={soft.name}>
+          <span style={{ width: soft.level }} className={className}></span>
+          <em>{soft.name}</em>
         </li>
       );
     });
@@ -93,14 +129,24 @@ const Experience = ({ data }) => {
             <ul className="skills">{frameworksLibraries}</ul>
           </div>
 
-          <p className="sub-title">{softwareMessage}</p>
+          <p className="sub-title">{apisDatabasesMessage}</p>
           <div className="bars">
-            <ul className="skills">{software}</ul>
+            <ul className="skills">{apisDatabases}</ul>
           </div>
 
-          <p className="sub-title">{databasesMessage}</p>
+          <p className="sub-title">{designPrototypingMessage}</p>
           <div className="bars">
-            <ul className="skills">{databases}</ul>
+            <ul className="skills">{designPrototyping}</ul>
+          </div>
+
+          <p className="sub-title">{toolingDeploymentMessage}</p>
+          <div className="bars">
+            <ul className="skills">{toolingDeployment}</ul>
+          </div>
+
+          <p className="sub-title">{softMessage}</p>
+          <div className="bars">
+            <ul className="skills">{soft}</ul>
           </div>
         </div>
       </div>

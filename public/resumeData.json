@@ -5,7 +5,7 @@
     "occupation": "Front-End Developer",
     "descriptionEnd": "Helping companies with their web needs",
     "image": "profileMeirunas.jpg",
-    "bio": "I am a front-end developer with around four years of experience building web and iOS solutions, internal tools, and marketing assets. I have also created and maintained both static and interactive websites, with a strong focus on responsive design and performance. I hold a BSc in Computer Science from a renowned London University. During my studies, I completed several full-stack and front-end projects, including a dynamic charity website and a full e-commerce platform. I launched a frontend dev hub to share my experience and improve my teamwork skills. In addition, I have been following clients’ requirements created on Adobe applications, such as InDesign and XD. With over 14 years in IT environments I built a wide range of skills, including HTML, CSS, JS, TS, React and Vue, that can benefit your company.",
+    "bio": "Front-end developer with four years of experience building web and iOS solutions, internal tools, and marketing assets. I created and maintained both static and interactive websites, with a strong focus on responsive design and performance. I holding a BSc in Computer Science from a renowned London University. During my studies, I completed several full-stack and front-end projects, including a dynamic charity website and a full e-commerce platform. In addition, I have been following clients’ requirements created on Adobe applications, such as InDesign and XD. With over 14 years in IT environments I built a wide range of skills, including HTML, CSS, JS, TS, React and Vue, that can benefit your company.",
     "contactMessage": "Get in touch with me.",
     "email": "meirunas.smi@icloud.com",
     "subject": "Contact From Meirunas's Portfolio",
@@ -36,8 +36,10 @@
   "experience": {
     "languagesMessage": "Languages",
     "frameworksLibrariesMessage": "Frameworks & Libraries",
-    "softwareMessage": "Software",
-    "databasesMessage": "Databases",
+    "apisDatabasesMessage": "API & Databses  ",
+    "designPrototypingMessage": "Design & Prototyping",
+    "toolingDeploymentMessage": "Tooling & Deployment",
+    "softMessage": " Soft",
     "education": [
       {
         "school": "Queen Mary Univeristy",
@@ -86,7 +88,7 @@
         "link": "https://28b.co.uk/",
         "title": "Junior Developer",
         "years": "Mar 2020 - Jun 2023",
-        "description": "Implemented Digital Sales Aids for iOS/Web platforms using the Veeva and IQVIA APIs that helped clients with their sales. Developed responsive emails including CRM, Salesforce and iPad. Implemented internal tools that helped to increase the quality of the software and made the delivery processes faster. Using Code Standard guidelines and best engineering practices such as Code reviews, Git branching strategy, and CI/CD. Involved in Agile practices. Improved internal documentation (Company Wiki)."
+        "description": "Implemented Digital Sales Aids for iOS/Web platforms using the Veeva and IQVIA APIs that helped clients with their sales. Developed responsive emails including CRM, Salesforce and iPad. Implemented internal tools that helped to increase the quality of the apisDatabases and made the delivery processes faster. Using Code Standard guidelines and best engineering practices such as Code reviews, Git branching strategy, and CI/CD. Involved in Agile practices. Improved internal documentation (Company Wiki)."
       },
       {
         "company": "HADEA",
@@ -106,20 +108,16 @@
         "level": "80%"
       },
       {
-        "name": "MJML",
-        "level": "80%"
-      },
-      {
         "name": "JavaScript",
-        "level": "70%"
-      },
-      {
-        "name": "Handlebars",
-        "level": "70%"
+        "level": "80%"
       },
       {
         "name": "TypeScript",
         "level": "60%"
+      },
+      {
+        "name": "Python",
+        "level": "70%"
       }
     ],
     "frameworksLibraries": [
@@ -140,33 +138,69 @@
         "level": "70%"
       },
       {
-        "name": "Node.js",
-        "level": "50%"
+        "name": "Pinia",
+        "level": "70%"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "70%"
       },
       {
         "name": "Express.js",
         "level": "60%"
       }
     ],
-    "software": [
+    "apisDatabases": [
       {
-        "name": "Adobe Cloud",
+        "name": "REST APIs",
         "level": "80%"
       },
       {
-        "name": "Veeva",
+        "name": "Axios",
         "level": "80%"
       },
       {
-        "name": "Salesforce",
+        "name": "Postman",
         "level": "70%"
       },
       {
-        "name": "npm",
+        "name": "Stripe",
         "level": "80%"
       },
       {
-        "name": "MS Office",
+        "name": "SQL",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "70%"
+      },
+      {
+        "name": "MySQL",
+        "level": "70%"
+      }
+    ],
+    "designPrototyping": [
+      {
+        "name": "InDesign",
+        "level": "70%"
+      },
+      {
+        "name": "XD",
+        "level": "70%"
+      },
+      {
+        "name": "Figma",
+        "level": "70%"
+      }
+    ],
+    "toolingDeployment": [
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "npm",
         "level": "80%"
       },
       {
@@ -174,26 +208,30 @@
         "level": "80%"
       },
       {
-        "name": "Git",
+        "name": "WebStorm",
         "level": "80%"
       },
       {
-        "name": "WordPress",
-        "level": "80%"
+        "name": "Vercel",
+        "level": "70%"
       }
     ],
-    "databases": [
+    "soft": [
       {
-        "name": "SQL",
-        "level": "70%"
+        "name": "Communication",
+        "level": "90%"
       },
       {
-        "name": "MySQL",
-        "level": "70%"
+        "name": "Teamwork",
+        "level": "80%"
       },
       {
-        "name": "MongoDB",
-        "level": "60%"
+        "name": "Initiative",
+        "level": "80%"
+      },
+      {
+        "name": "Working under pressure",
+        "level": "80%"
       }
     ]
   },
