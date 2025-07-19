@@ -241,7 +241,7 @@
         "title": "Recipe Explorer",
         "category": "Vue 3, Vite, Pinia, Tailwind CSS, TheMealDB API, Vue Router, LocalStorage, Axios, Responsive Design, Vitest",
         "image": "image--recipe-explorer.png",
-        "url": "https://recipe-explorer-app.vercel.app/"
+        "url": "https://github.com/Meirunas/recipe-explorer"
       },
       {
         "title": "Global & UK Digital Sales Aid (DSA)",
