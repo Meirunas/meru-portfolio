@@ -237,6 +237,12 @@
   },
   "portfolio": {
     "projects": [
+            {
+        "title": "Recipe Explorer",
+        "category": "Vue 3, Vite, Pinia, Tailwind CSS, TheMealDB API, Vue Router, LocalStorage, Axios, Responsive Design, Vitest",
+        "image": "image--recipe-explorer.png",
+        "url": "https://recipe-explorer-app.vercel.app/"
+      },
       {
         "title": "Global & UK Digital Sales Aid (DSA)",
         "category": "HTML, Handlebars, SCSS, JS, Veeva CRM and API, JSON",
