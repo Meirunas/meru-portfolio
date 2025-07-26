@@ -94,7 +94,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #16a34aff; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -116,7 +116,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #16a34aff; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -193,7 +193,7 @@ ul#nav li.current a { color: #16a34aff; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #16a34aff; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -249,7 +249,7 @@ ul#nav li.current a { color: #16a34aff; }
    letter-spacing: 1px;
 }
 #experience h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #16a34aff;
    padding-bottom: 6px;
 }
 #experience h3 {
@@ -659,7 +659,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #16a34aff; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -721,7 +721,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #16a34aff;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -740,7 +740,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #16a34aff;
 	font-size: 13px;
 }
 #image-loader {

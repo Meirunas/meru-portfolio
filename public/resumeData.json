@@ -237,11 +237,35 @@
   },
   "portfolio": {
     "projects": [
-            {
+      {
+        "title": "Frame101",
+        "category": "React, Next.js and TailwindCSS",
+        "image": "image--frame101.png",
+        "url": "https://github.com/Meirunas/frame101"
+      },
+      {
         "title": "Recipe Explorer",
         "category": "Vue 3, Vite, Pinia, Tailwind CSS, TheMealDB API, Vue Router, LocalStorage, Axios, Responsive Design, Vitest",
         "image": "image--recipe-explorer.png",
         "url": "https://github.com/Meirunas/recipe-explorer"
+      },
+      {
+        "title": "Portfolio",
+        "category": "React.js, Lighthouse",
+        "image": "image--react-portfolio.png",
+        "url": "https://github.com/Meirunas/meru-portfolio"
+      },
+      {
+        "title": "Job search/recruitment website",
+        "category": "Vue.js, Axios, REST APIs, Postman, Paypal, Stripe",
+        "image": "image--thanks-boss.png",
+        "url": "https://www.thanks-boss.com/"
+      },
+      {
+        "title": "Feedback Post",
+        "category": "Adobe XD",
+        "image": "image--feedback-post-pages.png",
+        "url": "https://xd.adobe.com/view/06eb7560-3689-4aa5-9195-05b3fbf89636-53b8/grid"
       },
       {
         "title": "Global & UK Digital Sales Aid (DSA)",
@@ -262,34 +286,22 @@
         "url": "https://gitlab.com/Meru4s/travel-and-explore-now/-/blob/main/Travel%20and%20Explore%20Now.md?ref_type=heads"
       },
       {
-        "title": "HADEA Website",
-        "category": "HTML, CSS, JS",
-        "image": "image--HADEA.png",
-        "url": "https://github.com/Meirunas/HADEA"
-      },
-      {
         "title": "Old Portfolio Site",
         "category": "HTML, CSS, JS",
         "image": "image--portfolio.png",
         "url": "https://github.com/Meirunas/meirunas-portfolio"
       },
       {
+        "title": "HADEA Website",
+        "category": "HTML, CSS, JS",
+        "image": "image--HADEA.png",
+        "url": "https://github.com/Meirunas/HADEA"
+      },
+      {
         "title": "University Grade Calculator",
         "category": "C#",
         "image": "image--grade-calculator.png",
         "url": "https://gitlab.com/dev-port/bsc-grade-calculator"
-      },
-      {
-        "title": "Feedback Post",
-        "category": "Adobe XD",
-        "image": "image--feedback-post-pages.png",
-        "url": "https://xd.adobe.com/view/06eb7560-3689-4aa5-9195-05b3fbf89636-53b8/grid"
-      },
-      {
-        "title": "Portfolio",
-        "category": "React.js, Lighthouse",
-        "image": "image--react-portfolio.png",
-        "url": "https://github.com/Meirunas/meru-portfolio"
       }
     ]
   }
